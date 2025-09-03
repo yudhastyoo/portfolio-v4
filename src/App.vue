@@ -19,12 +19,19 @@ onMounted(() => {
     <transition name="fade">
       <div
         v-if="showSplash"
-        class="fixed inset-0 flex items-center justify-center bg-white dark:bg-brand-dark z-50"
+        class="fixed inset-0 flex flex-col md:flex-row items-center justify-center bg-white dark:bg-brand-dark z-50"
       >
-        <h1 class="text-4xl font-bold text-blue-600 dark:text-red-500 animate-pulse">
+        <h1 class="text-xl md:text-4xl font-bold text-blue-600 dark:text-red-500 animate-pulse">
           Yudha Papua Setyo Atmaji
-          <span class="font-normal text-brand-dark dark:text-brand-light text-lg">Portfolio</span>
+          <span
+            class="hidden md:inline-block font-normal text-brand-dark dark:text-brand-light text-lg"
+          >
+            Portfolio
+          </span>
         </h1>
+        <p class="block md:hidden font-normal text-brand-dark dark:text-brand-light text-sm">
+          Portfolio
+        </p>
       </div>
     </transition>
 
