@@ -6,7 +6,7 @@
     </div>
     <img src="/pp.jpg" alt="" class="w-64 rounded-sm grayscale md:hidden mb-2" /> -->
     <div
-      class="mb-[80px] md:mb-0 text-sm md:text-base md:pr-3 text-brand-dark dark:text-brand-light font-medium"
+      class="mb-[40px] md:mb-0 text-sm md:text-base md:pr-3 text-brand-dark dark:text-brand-light font-medium"
     >
       <p class="mb-2 md:text-justify">
         My journey into Frontend Web Development began in 2018 when I built a simple login page,
@@ -14,7 +14,7 @@
         passion led me to pursue a Bachelor of Applied Science in Informatics Engineering, which I
         earned in 2022.
       </p>
-      <p class="md:text-justify">
+      <p class="mb-2 md:text-justify">
         Since then, I have been working as a Frontend Web Developer at a startup in South Tangerang,
         where I focus on developing a Queue Management System and Device Monitoring System for
         clients across various industries. Using Vue, Next.JS, WebSocket, and modern frontend
@@ -22,6 +22,53 @@
         interactions. My experience has strengthened my technical skills and deepened my
         understanding of crafting seamless, impactful digital experiences.
       </p>
+      <p class="mb-2 md:text-justify">
+        I am constantly seeking to expand my knowledge and stay updated with the latest industry
+        trends. I believe that continuous learning is key to success in the ever-evolving field of
+        web development.
+      </p>
+      <hr class="border-t border-gray-500 dark:border-brand-light my-4" />
+      <p class="italic font-light md:text-justify">
+        This website built with Vite, Vue 3, TypeScript, and Tailwind CSS serves as my portfolio to
+        showcase my projects.
+      </p>
+    </div>
+    <div class="mt-0 md:mt-10 text-brand-dark dark:text-brand-light">
+      <p class="text-center text-2xl font-semibold mb-5">Certification</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 gap-3">
+        <div class="flex flex-col items-center justify-center">
+          <img
+            src="/js-algorithms.jpg"
+            alt="Certificate 1"
+            class="w-full h-auto rounded-md shadow-xl border"
+          />
+          <span class="mt-2 text-sm text-center"> JavaScript Algorithms (Beta) </span>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <img
+            src="/responsive-web-design.jpg"
+            alt="Certificate 2"
+            class="w-full h-auto rounded-md shadow-xl border"
+          />
+          <span class="mt-2 text-sm text-center">Responsive Web Design</span>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <img
+            src="/adse.jpg"
+            alt="Certificate 3"
+            class="w-full h-auto rounded-md shadow-xl border"
+          />
+          <span class="mt-2 text-sm text-center"> ASEAN Data Science Explorer</span>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <img
+            src="/fullstack-designer.jpg"
+            alt="Certificate 4"
+            class="w-full h-auto rounded-md shadow-xl border"
+          />
+          <span class="mt-2 text-sm text-center">Full Stack Designer</span>
+        </div>
+      </div>
     </div>
   </div>
 </template>

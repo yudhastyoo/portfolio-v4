@@ -3,10 +3,9 @@ import { onMounted, ref } from 'vue'
 import Navbar from './components/Navbar.vue'
 import Sidebar from './components/Sidebar.vue'
 
-const showSplash = ref(false)
+const showSplash = ref(true)
 
 onMounted(() => {
-  // Hilang setelah 2 detik
   setTimeout(() => {
     showSplash.value = false
   }, 2000)
@@ -22,7 +21,10 @@ onMounted(() => {
         v-if="showSplash"
         class="fixed inset-0 flex items-center justify-center bg-white dark:bg-brand-dark z-50"
       >
-        <h1 class="text-4xl font-bold text-blue-600 dark:text-white animate-pulse">Loading...</h1>
+        <h1 class="text-4xl font-bold text-blue-600 dark:text-red-500 animate-pulse">
+          Yudha Papua Setyo Atmaji
+          <span class="font-normal text-brand-dark dark:text-brand-light text-lg">Portfolio</span>
+        </h1>
       </div>
     </transition>
 

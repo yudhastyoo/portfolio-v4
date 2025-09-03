@@ -2,7 +2,7 @@
   <div class="flex items-center justify-between">
     <div class="flex flex-col">
       <h1 class="text-3xl font-bold text-brand-dark dark:text-brand-light">
-        <span class="text-blue-600 dark:text-brand-light">Yudha Papua</span> Setyo Atmaji
+        <span class="text-blue-600 dark:text-red-400">Yudha Papua</span> Setyo Atmaji
       </h1>
       <p class="text-base text-brand-dark dark:text-brand-light">Frontend Web Developer</p>
     </div>
@@ -16,7 +16,7 @@
       <span
         aria-hidden="true"
         :class="enabled ? 'translate-x-6 translate-y-0.5' : 'translate-x-0.5 translate-y-0.5'"
-        class="pointer-events-none inline-block h-[20px] w-[20px] transform rounded-full bg-blue-600 shadow-lg ring-0 transition duration-200 ease-in-out"
+        class="pointer-events-none inline-block h-[20px] w-[20px] transform rounded-full bg-blue-600 dark:bg-red-400 shadow-lg ring-0 transition duration-200 ease-in-out"
       />
     </Switch>
   </div>
